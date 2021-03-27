@@ -10,30 +10,9 @@ a {
   text-decoration: none;
 }
 
-/* .block1 {
-  text-align: center;
-  margin: 10%;
-  float: left;
-  display: block;
-  width: 30%;
-}
-
-.block2 {
-  text-align: center;
-  margin: 10%;
-  display: block;
-  width: 30%;
-}
-
-.block3 {
-  text-align: center;
-  margin: 10%;
-  display: block;
-  width: 30%;
-} */
-
 .card {
-  margin: 10px;
+  text-align: center;
+  margin: auto;
   width: 90%;
   height: auto;
   overflow: hidden;

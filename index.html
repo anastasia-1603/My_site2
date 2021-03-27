@@ -18,13 +18,22 @@
             font-weight: 600;
         }
         p {
-            
+            text-align: left;
             font-family: Bradley Hand, cursive;
-            font-size: small;
+            font-size: medium;
         }
-        .round {
-            border-radius: 50px;
-            box-shadow: 0 0 7px #666;
+        .photo {
+            margin: 10px;
+            float: left;
+            width: 20%;
+            border-radius: 10px;
+        }
+
+        .contacts {
+            width: 10%; 
+            height: 10%;
+            margin: 10px;
+            float: left;
         }
     </style>
 </head>
@@ -34,27 +43,21 @@
         <input type="checkbox" id="hd-1" class="hide" />
         <label for="hd-1"><h2>Об авторе</h2></label>
         <div>
-            <img src="img/myphoto.jpg" alight="left" width="60%" class="round" >
-            <p>Здравствуйте! Меня зовут 
+        <img class="photo" src="img/my_photo2.jpg" >
+        <p>Здравствуйте! Меня зовут 
             Лазуткина Анастасия Алексеевна.
             Я учусь на 1 курсе факультета компьютерных наук 
             в Воронежском Государственном Университете.</p> 
-            <p></p>
-            <p>Приятного времяпровождения!</p>
-        </div>
-    </div>
-    <br />
-    <br />
-    <div class="card" class="demo" >
-        <input type="checkbox" id="hd-2" class="hide" />
-        <label for="hd-2"><h2>Контакты</h2></label>
-        <div>
-            <a href="https://vk.com/id308073415"><img src="img/vk-1.svg" 
-            alt="Вконтакте" title="Вконтакте" width=15% height=15% hspace="10"></a>
-        <a href="https://www.instagram.com/nastyalazutkina/"><img src="img/instagram-2-1.svg" 
-            alt="Инстаграм" title="Инстаграм" width=15% height=15% hspace="10"></a>
-            <a href="mailto:lazutkina.anastasia@mail.ru"><img src="img/mail-ru-logo-2018.svg" alt="Написать письмо" title="Написать письмо"
-                    width=25% height=25% hspace="10"></a>
+        <p>Приятного времяпровождения!</p>
+        <p>Мои контакты:</p>
+        <p>
+        <a href="https://vk.com/id308073415"><img class="contacts" src="img/vk-1.svg" alt="Вконтакте" title="Вконтакте"></a>
+        <a href="https://www.instagram.com/nastyalazutkina/"><img class="contacts" src="img/instagram-2-1.svg" alt="Инстаграм"
+            title="Инстаграм"></a>
+        <a href="mailto:lazutkina.anastasia@mail.ru"><img src="img/mail-ru-logo-2018.svg" alt="Написать письмо" width="20%"
+            height="20%"  margin="10px" title="Написать письмо"></a> 
+        </p>
+            
         </div>
     </div>
     <br />
@@ -71,9 +74,9 @@
     <br />
     <br />
     <div class="card"> <h2>Породы:</h2> <ul class="border">
-            <a href="/maine_coon.html"><li>Мейн-кун</li></a>
-            <a href="/skogkatt.html"><li>Норвежская лесная кошка</li></a>
-            <a href=""><li>Гималайская кошка</li></a>
+        <a href="/maine_coon.html"><li>Мейн-кун</li></a>
+        <a href="/skogkatt.html"><li>Норвежская лесная кошка</li></a>
+        <a href="/british_shorthair.html"><li>Британская короткошёрстная кошка</li></a>
         </ul>
     </div>
 </body>
